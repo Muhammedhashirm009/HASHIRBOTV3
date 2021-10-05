@@ -139,7 +139,7 @@ var plk9 = ''
         plk13 = 'ɠσσԃ ɱσɾɳιɳɠ'
         plk14 = '𝚐𝚘𝚘𝚍 𝚗𝚒𝚐𝚑𝚝'
         plk15 = '𝘨𝘰𝘰𝘥 𝘯𝘪𝘨𝘩𝘵'
-        plk16 = '𝓰𝓸𝓸𝓭 𝓷𝓲𝓰𝓱𝓽'
+        plk16 = '.remove'
         plk17 = '𝐠𝐨𝐨𝐝 𝐧𝐢𝐠𝐡𝐭'
     }  
 
@@ -163,7 +163,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
         let regex14 = new RegExp('Mrng')
         let regex15 = new RegExp('Good Night')
         let regex16 = new RegExp('good night')
-        let regex17 = new RegExp('ni8')
+        let regex17 = new RegExp('http')
         let regex18 = new RegExp('nyt')
         if (regex1.test(message.message)) {              
             await message.client.sendMessage(message.jid,plk1, MessageType.text, {quoted: message.data })
